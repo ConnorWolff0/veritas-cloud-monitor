@@ -30,7 +30,7 @@ from urllib.parse import urljoin, urldefrag, urlparse
 
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
-SCHEMA_VERSION = 3
+SCHEMA_VERSION = 4
 BASE_DOMAIN = "theveritassearch.com"
 ROOT_URLS = [
     "https://theveritassearch.com/",
@@ -246,7 +246,7 @@ def tls_snapshot(host: str) -> dict[str, Any]:
     out: dict[str, Any] = {}
     try:
         ctx = ssl.create_default_context()
-        with socket.create_connection((host, 443), timeout=10) as sock:
+        with socket.create_connection((host, 443), timeout=5) as sock:
             with ctx.wrap_socket(sock, server_hostname=host) as ssock:
                 der = ssock.getpeercert(binary_form=True)
                 cert = ssock.getpeercert()
@@ -309,6 +309,19 @@ async def autoscroll(page) -> None:
         )
     except Exception:
         pass
+
+
+
+async def drain_pending(pending: set[asyncio.Task], timeout: float = 6.0) -> None:
+    """Never let slow/streaming browser responses stall the whole crawl."""
+    if not pending:
+        return
+    tasks = list(pending)
+    done, still_running = await asyncio.wait(tasks, timeout=timeout)
+    for task in still_running:
+        task.cancel()
+    if still_running:
+        await asyncio.gather(*still_running, return_exceptions=True)
 
 
 def add_discovered_url(
@@ -377,20 +390,26 @@ async def crawl() -> dict[str, Any]:
             user_agent="Mozilla/5.0 (compatible; VeritasChangeMonitor/3.0; public-site change monitor)",
         )
 
-        # Fetch known metadata endpoints for every already-known host.
-        for host in sorted(initial_hosts):
-            for path in COMMON_PROBES:
-                url = normalize_url(f"https://{host}{path}")
-                if not url:
-                    continue
-                key = request_identity("GET", url)
+        # Fetch known metadata endpoints concurrently. Sequential probing can take
+        # minutes when nonexistent endpoints are slow to fail.
+        probe_sem = asyncio.Semaphore(8)
+
+        async def fetch_probe(host: str, path: str):
+            url = normalize_url(f"https://{host}{path}")
+            if not url:
+                return
+            key = request_identity("GET", url)
+            async with probe_sem:
                 try:
                     resp = await context.request.get(
                         url,
                         timeout=5_000,
                         fail_on_status_code=False,
                     )
-                    body = await resp.body()
+                    try:
+                        body = await asyncio.wait_for(resp.body(), timeout=5.0)
+                    except Exception:
+                        body = b""
                     hdrs = resp.headers
                     ctype = hdrs.get("content-type", "")
                     manifest["resources"][key] = {
@@ -419,6 +438,12 @@ async def crawl() -> dict[str, Any]:
                         "resource_type": "well-known-probe",
                         "error": repr(e),
                     }
+
+        await asyncio.gather(*[
+            fetch_probe(host, path)
+            for host in sorted(initial_hosts)
+            for path in COMMON_PROBES
+        ])
 
         visited: set[str] = set()
 
@@ -451,7 +476,7 @@ async def crawl() -> dict[str, Any]:
                     key = request_identity(method, url, post_data)
 
                     try:
-                        body = await response.body()
+                        body = await asyncio.wait_for(response.body(), timeout=5.0)
                     except Exception:
                         body = b""
 
@@ -554,7 +579,7 @@ async def crawl() -> dict[str, Any]:
                 await page.wait_for_timeout(SETTLE_MS)
 
                 if pending:
-                    await asyncio.gather(*list(pending), return_exceptions=True)
+                    await drain_pending(pending, timeout=6.0)
 
                 final_url = normalize_url(page.url) or page.url
                 page_entry["final_url"] = final_url
@@ -664,7 +689,7 @@ async def crawl() -> dict[str, Any]:
                             await autoscroll(page)
                             await page.wait_for_timeout(SETTLE_MS)
                             if pending:
-                                await asyncio.gather(*list(pending), return_exceptions=True)
+                                await drain_pending(pending, timeout=6.0)
 
                             view_url = normalize_url(page.url) or page.url
                             # Do not crawl an external destination as part of this domain.
@@ -723,7 +748,7 @@ async def crawl() -> dict[str, Any]:
                 page_entry["error"] = repr(e)
             finally:
                 if pending:
-                    await asyncio.gather(*list(pending), return_exceptions=True)
+                    await drain_pending(pending, timeout=6.0)
                 await page.close()
 
             manifest["pages"][requested_url] = page_entry
