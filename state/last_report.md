@@ -1,16 +1,26 @@
 # Veritas Monitor Report
 
-- Run: `2026-09-07T19:25:57.183908+00:00`
-- Hosts monitored this run: **2**
-- Pages crawled: **2**
-- Network resources observed: **39**
+- Schema: **5**
+- Hosts monitored: **2**
+- Root pages exercised: **2**
+- Network resources observed: **56**
 - Change events: **0**
 
-## Subdomains/hosts monitored
+## Hosts
 
 - `theveritassearch.com`
 - `www.theveritassearch.com`
 
+## SPA views attempted
+
+- Home
+- Rewards
+- Guidelines
+- Tracker
+- Hints
+- Archive
+- Support Us
+
 ## Result
 
-Baseline created. Future runs are compared against this snapshot.
+Fresh v5 baseline created.
