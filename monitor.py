@@ -30,6 +30,7 @@ from urllib.parse import urljoin, urldefrag, urlparse
 
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
+SCHEMA_VERSION = 3
 BASE_DOMAIN = "theveritassearch.com"
 ROOT_URLS = [
     "https://theveritassearch.com/",
@@ -53,6 +54,8 @@ VOLATILE_HEADERS = {
     "set-cookie", "cookie",
     "cf-ray", "cf-cache-status",
     "x-request-id", "x-amzn-trace-id", "x-vercel-id",
+    "x-vercel-cache", "x-fastly-request-id", "x-github-request-id",
+    "x-timer", "x-served-by", "x-cache", "x-cache-hits", "source-age",
     "server-timing", "traceparent", "tracestate",
     "nel", "report-to",
 }
@@ -145,6 +148,33 @@ def filtered_headers(headers: dict[str, str]) -> dict[str, str]:
     ))
 
 
+def normalize_runtime_text(text: str) -> str:
+    """Remove browser/runtime IDs that change despite identical site behavior."""
+    text = re.sub(r"0x[0-9a-fA-F]+", "0x<RUNTIME>", text)
+    text = re.sub(
+        r"[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}",
+        "<UUID>",
+        text,
+    )
+    text = re.sub(r"blob:https?://[^/]+/[0-9a-fA-F-]+", "blob:<RUNTIME>", text)
+    return text
+
+
+async def stable_screenshot_record(page) -> dict[str, Any]:
+    """
+    Take two screenshots. If the pixels are identical, keep the exact hash.
+    If the page is actively animated/WebGL-dynamic, record only that fact so
+    random frames do not create a false alarm every five minutes.
+    """
+    shot1 = await page.screenshot(full_page=True, animations="disabled")
+    await page.wait_for_timeout(300)
+    shot2 = await page.screenshot(full_page=True, animations="disabled")
+    h1, h2 = sha256_bytes(shot1), sha256_bytes(shot2)
+    if h1 == h2:
+        return {"stable": True, "sha256": h1, "bytes": len(shot1)}
+    return {"stable": False, "dynamic_pixels": True}
+
+
 def body_record(body: bytes, content_type: str = "") -> dict[str, Any]:
     # The full body is always hashed. We only store a tiny preview for text
     # so reports/state do not balloon with images/video/bundles.
@@ -182,7 +212,7 @@ def discover_certificate_transparency_hosts() -> set[str]:
     try:
         req = urllib.request.Request(
             url,
-            headers={"User-Agent": "VeritasChangeMonitor/2.0"}
+            headers={"User-Agent": "VeritasChangeMonitor/3.0"}
         )
         with urllib.request.urlopen(req, timeout=20) as r:
             rows = json.loads(r.read().decode("utf-8", "replace"))
@@ -320,7 +350,7 @@ async def crawl() -> dict[str, Any]:
             queued.add(u)
 
     manifest: dict[str, Any] = {
-        "schema": 2,
+        "schema": SCHEMA_VERSION,
         "base_domain": BASE_DOMAIN,
         "strict_headers": STRICT_HEADERS,
         "hosts": {},
@@ -344,7 +374,7 @@ async def crawl() -> dict[str, Any]:
             reduced_motion="reduce",
             locale="en-US",
             timezone_id="America/New_York",
-            user_agent="Mozilla/5.0 (compatible; VeritasChangeMonitor/2.0; public-site change monitor)",
+            user_agent="Mozilla/5.0 (compatible; VeritasChangeMonitor/3.0; public-site change monitor)",
         )
 
         # Fetch known metadata endpoints for every already-known host.
@@ -408,7 +438,13 @@ async def crawl() -> dict[str, Any]:
 
             async def capture_response(response):
                 try:
-                    url = normalize_url(response.url) or response.url
+                    raw_url = response.url
+                    # blob:/data: URLs are runtime-local identities (often random UUIDs),
+                    # not stable public resources. Their source bytes/JS/DOM are tracked
+                    # elsewhere; keeping their random URL would alert every run.
+                    if raw_url.startswith(("blob:", "data:")):
+                        return
+                    url = normalize_url(raw_url) or raw_url
                     req = response.request
                     method = req.method
                     post_data = req.post_data
@@ -465,13 +501,13 @@ async def crawl() -> dict[str, Any]:
                 try:
                     console_messages.append({
                         "type": msg.type,
-                        "text": msg.text[:2000],
+                        "text": normalize_runtime_text(msg.text[:2000]),
                     })
                 except Exception:
                     pass
 
             def on_page_error(exc):
-                page_errors.append(str(exc)[:4000])
+                page_errors.append(normalize_runtime_text(str(exc)[:4000]))
 
             def on_websocket(ws):
                 item = {"url": ws.url, "received": [], "sent": []}
@@ -536,16 +572,10 @@ async def crawl() -> dict[str, Any]:
                 except Exception as e:
                     page_entry["dom_error"] = repr(e)
 
-                # Pixel hash catches canvas/rendering/style/font changes.
+                # Exact pixel monitoring when the page is visually stable. If it is
+                # actively animated/WebGL-dynamic, avoid random-frame false alarms.
                 try:
-                    shot = await page.screenshot(
-                        full_page=True,
-                        animations="disabled",
-                    )
-                    page_entry["screenshot"] = {
-                        "sha256": sha256_bytes(shot),
-                        "bytes": len(shot),
-                    }
+                    page_entry["screenshot"] = await stable_screenshot_record(page)
                 except Exception as e:
                     page_entry["screenshot_error"] = repr(e)
 
@@ -595,6 +625,86 @@ async def crawl() -> dict[str, Any]:
                         )
                 except Exception:
                     pass
+
+                # This site is a React single-page app. Its main navigation is made
+                # of <button> elements rather than <a href=...> links, so a normal crawler
+                # sees only "/". Explore every HEADER button as a separate SPA view.
+                # Restricting this to the header avoids clicking submit/purchase/form buttons.
+                try:
+                    nav_labels = await page.locator("header button").all_text_contents()
+                    nav_labels = [x.strip() for x in nav_labels if x and x.strip()]
+                    nav_labels = list(dict.fromkeys(nav_labels))
+                    page_entry["spa_navigation_labels"] = nav_labels
+                    spa_views: dict[str, Any] = {}
+
+                    async def discover_links_from_current_view(base_url: str):
+                        try:
+                            view_urls = await page.locator(
+                                "a[href], area[href], form[action], iframe[src], frame[src]"
+                            ).evaluate_all(
+                                """
+                                els => els.map(e => e.href || e.action || e.src || null).filter(Boolean)
+                                """
+                            )
+                            for raw in view_urls:
+                                add_discovered_url(raw, base_url, queue, queued, discovered_hosts)
+                        except Exception:
+                            pass
+
+                    # Home is already captured above. Click each other top-level nav view.
+                    for label in nav_labels:
+                        if label.lower() == "home":
+                            continue
+                        try:
+                            locator = page.get_by_role("button", name=label, exact=True)
+                            if await locator.count() < 1:
+                                continue
+                            await locator.first.click(timeout=5000)
+                            await page.wait_for_timeout(400)
+                            await autoscroll(page)
+                            await page.wait_for_timeout(SETTLE_MS)
+                            if pending:
+                                await asyncio.gather(*list(pending), return_exceptions=True)
+
+                            view_url = normalize_url(page.url) or page.url
+                            # Do not crawl an external destination as part of this domain.
+                            # We still preserve the destination URL as observable behavior.
+                            view: dict[str, Any] = {"url": view_url}
+                            if is_in_scope(view_url):
+                                vdom = (await page.content()).encode("utf-8", "replace")
+                                view["rendered_dom"] = body_record(vdom, "text/html")
+                                try:
+                                    view["screenshot"] = await stable_screenshot_record(page)
+                                except Exception as e:
+                                    view["screenshot_error"] = repr(e)
+                                try:
+                                    view["title"] = await page.title()
+                                except Exception:
+                                    pass
+                                await discover_links_from_current_view(view_url)
+                                if view_url not in queued:
+                                    add_discovered_url(view_url, view_url, queue, queued, discovered_hosts)
+                            spa_views[label] = view
+
+                            # Return to Home using the site's own navigation before the next view.
+                            home = page.get_by_role("button", name="Home", exact=True)
+                            if await home.count() > 0:
+                                await home.first.click(timeout=5000)
+                                await page.wait_for_timeout(300)
+                            else:
+                                await page.goto(final_url, wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
+                                await page.wait_for_timeout(500)
+                        except Exception as e:
+                            spa_views[label] = {"error": normalize_runtime_text(repr(e))}
+                            try:
+                                await page.goto(final_url, wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
+                                await page.wait_for_timeout(500)
+                            except Exception:
+                                pass
+
+                    page_entry["spa_views"] = spa_views
+                except Exception as e:
+                    page_entry["spa_exploration_error"] = normalize_runtime_text(repr(e))
 
                 # Discover absolute in-scope URLs embedded anywhere in the rendered HTML.
                 try:
@@ -662,6 +772,7 @@ def meaningful_diff(old: dict[str, Any], new: dict[str, Any]) -> list[str]:
         watched_fields = [
             "final_url", "status", "title",
             "rendered_dom", "screenshot",
+            "spa_navigation_labels", "spa_views", "spa_exploration_error",
             "client_storage_sha256", "console_sha256",
             "page_errors_sha256", "websockets_sha256",
             "error",
@@ -705,7 +816,7 @@ def send_ntfy(title: str, message: str) -> bool:
             "Title": title,
             "Priority": "urgent",
             "Tags": "rotating_light",
-            "User-Agent": "VeritasChangeMonitor/2.0",
+            "User-Agent": "VeritasChangeMonitor/3.0",
         },
     )
     try:
@@ -750,7 +861,7 @@ def send_twilio_sms(message: str) -> bool:
         headers={
             "Authorization": f"Basic {auth}",
             "Content-Type": "application/x-www-form-urlencoded",
-            "User-Agent": "VeritasChangeMonitor/2.0",
+            "User-Agent": "VeritasChangeMonitor/3.0",
         },
     )
     try:
@@ -788,6 +899,7 @@ def write_report(manifest: dict[str, Any], changes: list[str], baseline: bool) -
         f"- Hosts monitored this run: **{manifest.get('counts', {}).get('hosts', 0)}**",
         f"- Pages crawled: **{manifest.get('counts', {}).get('pages', 0)}**",
         f"- Network resources observed: **{manifest.get('counts', {}).get('resources', 0)}**",
+        f"- SPA views exercised: **{sum(len(p.get('spa_views', {})) for p in manifest.get('pages', {}).values())}**",
         f"- Change events: **{len(changes)}**",
         "",
         "## Subdomains/hosts monitored",
@@ -795,6 +907,16 @@ def write_report(manifest: dict[str, Any], changes: list[str], baseline: bool) -
     ]
     for host in sorted(manifest.get("hosts", {})):
         lines.append(f"- `{host}`")
+
+    lines += ["", "## SPA navigation views exercised", ""]
+    seen_views = set()
+    for page in manifest.get("pages", {}).values():
+        seen_views.update(page.get("spa_navigation_labels", []))
+    if seen_views:
+        for label in sorted(seen_views):
+            lines.append(f"- `{label}`")
+    else:
+        lines.append("- None discovered")
 
     lines += ["", "## Result", ""]
     if baseline:
@@ -834,11 +956,11 @@ async def main() -> int:
 
     old = load_old_manifest()
     new = await crawl()
-    baseline = old is None
+    baseline = old is None or old.get("schema") != SCHEMA_VERSION
 
     if baseline:
         changes: list[str] = []
-        print("\nBASELINE CREATED", flush=True)
+        print("\nBASELINE CREATED/REFRESHED", flush=True)
         send_alert(
             "Veritas monitor is LIVE",
             (
@@ -868,7 +990,13 @@ async def main() -> int:
         else:
             print("\nNo observable changes detected.", flush=True)
 
-    write_report(new, changes, baseline)
+    # Keep the repository quiet when nothing changed. Updating last_report.md
+    # every five minutes would create hundreds of pointless Git commits/day.
+    if baseline or changes:
+        write_report(new, changes, baseline)
+    else:
+        print("[state] no meaningful change; preserving last_report.md", flush=True)
+
     MANIFEST_FILE.write_text(
         json.dumps(new, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
         encoding="utf-8",
