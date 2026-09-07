@@ -6,10 +6,20 @@ from pathlib import Path
 from typing import Any
 from playwright.async_api import async_playwright
 
-SCHEMA_VERSION = 5
+SCHEMA_VERSION = 6
 BASE_DOMAIN = "theveritassearch.com"
 ROOTS = ["https://www.theveritassearch.com/", "https://theveritassearch.com/"]
 SPA_LABELS = ["Home", "Rewards", "Guidelines", "Tracker", "Hints", "Archive", "Support Us"]
+ROUTE_PATHS = [
+    "/",
+    "/rewards",
+    "/guidelines",
+    "/tracker",
+    "/hints",
+    "/archive",
+    "/support",
+    "/support-us",
+]
 
 STATE_DIR = Path("state")
 MANIFEST_FILE = STATE_DIR / "manifest.json"
@@ -143,87 +153,84 @@ async def crawl_browser(hosts: set[str]):
             timeout=25
         )
 
+        # Explicitly render every known route independently. This is important
+        # because these are real URLs, not merely button states.
         for host in sorted(hosts):
-            root=f"https://{host}/"
-            page=await context.new_page()
-            pending=set()
-            console=[]; page_errors=[]
+            for route_path in ROUTE_PATHS:
+                target=f"https://{host}{route_path}"
+                page=await context.new_page()
+                pending=set()
+                console=[]; page_errors=[]
 
-            async def capture(response):
+                async def capture(response):
+                    try:
+                        raw_url=response.url
+                        if raw_url.startswith(("blob:","data:")): return
+                        req=response.request
+                        post=req.post_data
+                        key=resource_key(req.method,raw_url,post)
+                        try: body=await asyncio.wait_for(response.body(),4)
+                        except Exception: body=b""
+                        try: hdrs=await asyncio.wait_for(response.all_headers(),3)
+                        except Exception: hdrs={}
+                        resources[key]={
+                            "url":raw_url,"method":req.method,"kind":req.resource_type,
+                            "status":response.status,"headers":stable_headers(hdrs),
+                            "body_sha256":sha(body),"bytes":len(body)
+                        }
+                        try:
+                            rh=urllib.parse.urlparse(raw_url).hostname or ""
+                            if host_in_scope(rh): observed_hosts.add(rh.lower())
+                        except Exception: pass
+                    except Exception:
+                        pass
+
+                def on_response(resp):
+                    t=asyncio.create_task(capture(resp))
+                    pending.add(t); t.add_done_callback(pending.discard)
+
+                page.on("response",on_response)
+                page.on("console",lambda m: console.append({"type":m.type,"text":normalize_runtime_text(m.text[:1500])}))
+                page.on("pageerror",lambda e: page_errors.append(normalize_runtime_text(str(e)[:2000])))
+
+                entry={"requested_url":target}
                 try:
-                    raw_url=response.url
-                    if raw_url.startswith(("blob:","data:")): return
-                    req=response.request
-                    post=req.post_data
-                    key=resource_key(req.method,raw_url,post)
-                    try: body=await asyncio.wait_for(response.body(),4)
-                    except Exception: body=b""
-                    try: hdrs=await asyncio.wait_for(response.all_headers(),3)
-                    except Exception: hdrs={}
-                    resources[key]={
-                        "url":raw_url,"method":req.method,"kind":req.resource_type,
-                        "status":response.status,"headers":stable_headers(hdrs),
-                        "body_sha256":sha(body),"bytes":len(body)
-                    }
+                    resp=await page.goto(target,wait_until="domcontentloaded",timeout=12000)
+                    entry["status"]=resp.status if resp else None
+                    entry["final_url"]=page.url
+                    await page.wait_for_timeout(700)
+
+                    dom=normalize_runtime_text(await page.content()).encode()
+                    entry["dom_sha256"]=sha(dom)
+                    entry["screenshot"]=await stable_screenshot(page)
+
+                    # Record all internal hrefs visible on the rendered route.
                     try:
-                        rh=urllib.parse.urlparse(raw_url).hostname or ""
-                        if host_in_scope(rh): observed_hosts.add(rh.lower())
-                    except Exception: pass
-                except Exception:
-                    pass
+                        hrefs=await page.locator("a[href]").evaluate_all("els => els.map(e => e.href)")
+                        internal=sorted({
+                            u for u in hrefs
+                            if urllib.parse.urlparse(u).hostname
+                            and host_in_scope(urllib.parse.urlparse(u).hostname)
+                        })
+                        entry["internal_links"]=internal
+                    except Exception:
+                        pass
 
-            def on_response(resp):
-                t=asyncio.create_task(capture(resp))
-                pending.add(t); t.add_done_callback(pending.discard)
+                    if pending:
+                        _,not_done=await asyncio.wait(list(pending),timeout=6)
+                        for t in not_done: t.cancel()
+                        if not_done: await asyncio.gather(*not_done,return_exceptions=True)
 
-            page.on("response",on_response)
-            page.on("console",lambda m: console.append({"type":m.type,"text":normalize_runtime_text(m.text[:1500])}))
-            page.on("pageerror",lambda e: page_errors.append(normalize_runtime_text(str(e)[:2000])))
+                    if console: entry["console_sha256"]=jhash(console)
+                    if page_errors: entry["page_errors_sha256"]=jhash(page_errors)
+                except Exception as e:
+                    entry["error"]=repr(e)
+                finally:
+                    for t in list(pending):
+                        if not t.done(): t.cancel()
+                    await page.close()
 
-            entry={"root":root,"views":{}}
-            try:
-                resp=await page.goto(root,wait_until="domcontentloaded",timeout=15000)
-                entry["status"]=resp.status if resp else None
-                await page.wait_for_timeout(1000)
-
-                dom=normalize_runtime_text(await page.content()).encode()
-                entry["base_dom_sha256"]=sha(dom)
-                entry["base_screenshot"]=await stable_screenshot(page)
-
-                for label in SPA_LABELS:
-                    view={}
-                    try:
-                        loc=page.get_by_role("button",name=label,exact=True)
-                        if await loc.count()==0:
-                            loc=page.get_by_text(label,exact=True)
-                        if await loc.count():
-                            await loc.first.click(timeout=3000)
-                            await page.wait_for_timeout(600)
-                            vdom=normalize_runtime_text(await page.content()).encode()
-                            view["dom_sha256"]=sha(vdom)
-                            view["screenshot"]=await stable_screenshot(page)
-                            view["url"]=page.url
-                        else:
-                            view["missing"]=True
-                    except Exception as e:
-                        view["error"]=repr(e)
-                    entry["views"][label]=view
-
-                if pending:
-                    _,not_done=await asyncio.wait(list(pending),timeout=8)
-                    for t in not_done: t.cancel()
-                    if not_done: await asyncio.gather(*not_done,return_exceptions=True)
-
-                if console: entry["console_sha256"]=jhash(console)
-                if page_errors: entry["page_errors_sha256"]=jhash(page_errors)
-            except Exception as e:
-                entry["error"]=repr(e)
-            finally:
-                for t in list(pending):
-                    if not t.done(): t.cancel()
-                await page.close()
-
-            pages[root]=entry
+                pages[target]=entry
 
         await browser.close()
 
@@ -279,7 +286,7 @@ async def monitor_once():
     changes=[] if baseline else diff(old,manifest)
 
     if baseline:
-        send_ntfy("Veritas monitor is LIVE",f"Reliable v5 baseline created: {len(hosts)} host(s), {len(manifest['pages'])} root page(s), {len(manifest['resources'])} resources.")
+        send_ntfy("Veritas monitor is LIVE",f"Reliable v6 baseline created: {len(hosts)} host(s), {len(manifest['pages'])} route URL(s), {len(manifest['resources'])} resources.")
     elif changes:
         preview="; ".join(changes[:5]) + (f"; +{len(changes)-5} more" if len(changes)>5 else "")
         send_ntfy("VERITAS CHANGE DETECTED",preview[:900])
@@ -291,24 +298,24 @@ async def monitor_once():
         "# Veritas Monitor Report","",
         f"- Schema: **{SCHEMA_VERSION}**",
         f"- Hosts monitored: **{len(hosts)}**",
-        f"- Root pages exercised: **{len(manifest['pages'])}**",
+        f"- Route URLs exercised: **{len(manifest['pages'])}**",
         f"- Network resources observed: **{len(manifest['resources'])}**",
         f"- Change events: **{len(changes)}**","",
         "## Hosts","",
         *[f"- `{h}`" for h in sorted(hosts)],"",
-        "## SPA views attempted","",
-        *[f"- {x}" for x in SPA_LABELS],"",
+        "## Explicit route paths monitored","",
+        *[f"- `{x}`" for x in ROUTE_PATHS],"",
         "## Result","",
-        ("Fresh v5 baseline created." if baseline else ("No observable changes." if not changes else "\n".join(f"- {c}" for c in changes[:200])))
+        ("Fresh v6 baseline created." if baseline else ("No observable changes." if not changes else "\n".join(f"- {c}" for c in changes[:200])))
     ]
     REPORT_FILE.write_text("\n".join(lines)+"\n")
     print(f"[done] hosts={len(hosts)} resources={len(manifest['resources'])} changes={len(changes)}",flush=True)
 
 async def main():
     try:
-        await asyncio.wait_for(monitor_once(),timeout=165)
+        await asyncio.wait_for(monitor_once(),timeout=240)
     except asyncio.TimeoutError:
-        print("FATAL: monitor exceeded 165-second global limit",flush=True)
+        print("FATAL: monitor exceeded 240-second global limit",flush=True)
         raise SystemExit(2)
 
 if __name__=="__main__":
