@@ -1,9 +1,9 @@
 # Veritas Monitor Report
 
-- Schema: **5**
+- Schema: **6**
 - Hosts monitored: **2**
-- Root pages exercised: **2**
-- Network resources observed: **56**
+- Route URLs exercised: **16**
+- Network resources observed: **82**
 - Change events: **0**
 
 ## Hosts
@@ -11,16 +11,17 @@
 - `theveritassearch.com`
 - `www.theveritassearch.com`
 
-## SPA views attempted
+## Explicit route paths monitored
 
-- Home
-- Rewards
-- Guidelines
-- Tracker
-- Hints
-- Archive
-- Support Us
+- `/`
+- `/rewards`
+- `/guidelines`
+- `/tracker`
+- `/hints`
+- `/archive`
+- `/support`
+- `/support-us`
 
 ## Result
 
-Fresh v5 baseline created.
+Fresh v6 baseline created.
