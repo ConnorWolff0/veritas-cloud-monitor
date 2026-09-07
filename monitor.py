@@ -214,7 +214,7 @@ def discover_certificate_transparency_hosts() -> set[str]:
             url,
             headers={"User-Agent": "VeritasChangeMonitor/3.0"}
         )
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with urllib.request.urlopen(req, timeout=5) as r:
             rows = json.loads(r.read().decode("utf-8", "replace"))
         for row in rows:
             for field in ("name_value", "common_name"):
@@ -820,7 +820,7 @@ def send_ntfy(title: str, message: str) -> bool:
         },
     )
     try:
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with urllib.request.urlopen(req, timeout=5) as r:
             r.read()
         print("[notify] ntfy push sent", flush=True)
         return True
@@ -865,7 +865,7 @@ def send_twilio_sms(message: str) -> bool:
         },
     )
     try:
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with urllib.request.urlopen(req, timeout=5) as r:
             r.read()
         print("[notify] Twilio SMS sent", flush=True)
         return True
