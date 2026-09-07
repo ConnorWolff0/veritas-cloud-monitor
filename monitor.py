@@ -387,7 +387,7 @@ async def crawl() -> dict[str, Any]:
                 try:
                     resp = await context.request.get(
                         url,
-                        timeout=20_000,
+                        timeout=5_000,
                         fail_on_status_code=False,
                     )
                     body = await resp.body()
