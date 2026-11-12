@@ -8,8 +8,8 @@
     },
     "www.theveritassearch.com": {
       "dns": [
-        "66.33.60.35",
-        "76.76.21.123"
+        "66.33.60.194",
+        "76.76.21.93"
       ],
       "tls_cert_sha256": "f0852e059afa6ab2e3131dfe315c2fc8ca2be2a8712932b78ae0c870304954b5"
     }
@@ -17,7 +17,7 @@
   "pages": {
     "https://theveritassearch.com/": {
       "console_sha256": "4587f0faf242d023ee4ce08d5e8ffdd5e8004deef1596326a2aa83c60ae095fb",
-      "dom_sha256": "782ea9b7f3297be3595c1ef0a890981f6a4b93f0dad4ba27a79eecc6896f0185",
+      "dom_sha256": "64c765984f6ec3ad727fa41450698b2336344adf5a0a9b49e10e0d55c70474d9",
       "final_url": "https://www.theveritassearch.com/",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -37,7 +37,7 @@
       "status": 200
     },
     "https://theveritassearch.com/archive": {
-      "dom_sha256": "e7e141c7f7140c0e305b05a5f50d05e96e50ca8a585f57724ad6aa18f2c4a977",
+      "dom_sha256": "8138f5cda60c3954fa0f235f75e74a20682612f30431922188cc117e99a31e69",
       "final_url": "https://www.theveritassearch.com/archive",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -62,7 +62,7 @@
     },
     "https://theveritassearch.com/guidelines": {
       "console_sha256": "6eb78b891fa59318e70ba61b0a955bcd561d222271486945c5f16f43d4f28fda",
-      "dom_sha256": "bedbc4c3095250ccbf06a4578b941881949860717915ecbf170818f0bd3aa2ba",
+      "dom_sha256": "59a64f127c3db8ab0357b66218dc1827a3b0ff3d89b61e5550cf87dea9f90193",
       "final_url": "https://www.theveritassearch.com/guidelines",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -82,7 +82,7 @@
       "status": 200
     },
     "https://theveritassearch.com/hints": {
-      "dom_sha256": "e6a69bbe5479e92d8746b3464d3bf58ec18c757bfcf4390e127af038022edf85",
+      "dom_sha256": "485425a92b97ab3ecde13c9541c8e079106e1fbd8bf2bfa5320e28f6a168a5fa",
       "final_url": "https://www.theveritassearch.com/hints",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -98,14 +98,14 @@
       ],
       "requested_url": "https://theveritassearch.com/hints",
       "screenshot": {
-        "bytes": 311990,
-        "sha256": "aa6d87958bf512f067ec4c7cc8e86ea3a8550cffab8021338b9c5ea4475d5b0b",
+        "bytes": 311918,
+        "sha256": "55c1d29248ece5580babcec7c109ab04ed04ad68e7107e9fcebbb05102697362",
         "stable": true
       },
       "status": 200
     },
     "https://theveritassearch.com/rewards": {
-      "dom_sha256": "2801df62b8a8b7f86ae4f6e6b4d45f8fc5826cfdf17c41c551828ecfe2b47800",
+      "dom_sha256": "333c3f3be1531372f17f56813f7dc1712363e0c1d7547f131d507affdb5469e2",
       "final_url": "https://www.theveritassearch.com/rewards",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -127,7 +127,7 @@
       "status": 200
     },
     "https://theveritassearch.com/support": {
-      "dom_sha256": "efb97f1cce4dcb1fb58088e7896d39e7993eba358427d91490324eebeba6b7f9",
+      "dom_sha256": "8278b863b6873956847d054ca455e6a22511c470f35b55a2c7b6540c3ce96c17",
       "final_url": "https://www.theveritassearch.com/support",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -150,7 +150,7 @@
     },
     "https://theveritassearch.com/support-us": {
       "console_sha256": "333f5a5ce17a589d474d79f4aef04ba13ea9a88d5373afcb619a10ec87593f38",
-      "dom_sha256": "ee5b9fe6809cf5bc3ee76f786b5577e43cf6c874d4812c04a538bbdb2b56d6a7",
+      "dom_sha256": "c237b1834dbddcf353cf34299d572172cc2445d0277ade09c6670f22ec30108f",
       "final_url": "https://www.theveritassearch.com/support-us",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -172,7 +172,7 @@
       "status": 404
     },
     "https://theveritassearch.com/tracker": {
-      "dom_sha256": "7e420c1631419a0de4d5ea2c884fc425597217f864898fddafbf3c1574a6da04",
+      "dom_sha256": "87f23dc181717b05670574d9f7d0f7d9d5f627a2d94b3a6f94551be3ea436488",
       "final_url": "https://www.theveritassearch.com/tracker",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -187,15 +187,15 @@
       ],
       "requested_url": "https://theveritassearch.com/tracker",
       "screenshot": {
-        "bytes": 381127,
-        "sha256": "fda1c4517f045d231eb6118b44622a93378e4f9f6dd71fbf3210e8d3878b7c0e",
+        "bytes": 390770,
+        "sha256": "5f1a75b0e5077ee22de7d5abda724f053aeed4eea4fd7ae3a884179b03e79dd2",
         "stable": true
       },
       "status": 200
     },
     "https://www.theveritassearch.com/": {
       "console_sha256": "6eb78b891fa59318e70ba61b0a955bcd561d222271486945c5f16f43d4f28fda",
-      "dom_sha256": "23c591f6af124a30d7b2fbc45c6ad0e06bfbbb35c7ed36741f4620686b98f913",
+      "dom_sha256": "2659e74962a2eda0288dafff5f9b1654c7984d54fc23d781b50de39d4d4683b2",
       "final_url": "https://www.theveritassearch.com/",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -215,7 +215,7 @@
       "status": 200
     },
     "https://www.theveritassearch.com/archive": {
-      "dom_sha256": "e7e141c7f7140c0e305b05a5f50d05e96e50ca8a585f57724ad6aa18f2c4a977",
+      "dom_sha256": "8138f5cda60c3954fa0f235f75e74a20682612f30431922188cc117e99a31e69",
       "final_url": "https://www.theveritassearch.com/archive",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -240,7 +240,7 @@
     },
     "https://www.theveritassearch.com/guidelines": {
       "console_sha256": "6eb78b891fa59318e70ba61b0a955bcd561d222271486945c5f16f43d4f28fda",
-      "dom_sha256": "e4131b533e2ba18781ed3df45e534c3ae50ff4752708c18f16508030c7b2378a",
+      "dom_sha256": "f460d066fb43416f8c0994d71c57e2ffdef8b62e4aa7269594ba28556f3831ec",
       "final_url": "https://www.theveritassearch.com/guidelines",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -260,7 +260,7 @@
       "status": 200
     },
     "https://www.theveritassearch.com/hints": {
-      "dom_sha256": "e6a69bbe5479e92d8746b3464d3bf58ec18c757bfcf4390e127af038022edf85",
+      "dom_sha256": "485425a92b97ab3ecde13c9541c8e079106e1fbd8bf2bfa5320e28f6a168a5fa",
       "final_url": "https://www.theveritassearch.com/hints",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -276,14 +276,14 @@
       ],
       "requested_url": "https://www.theveritassearch.com/hints",
       "screenshot": {
-        "bytes": 311990,
-        "sha256": "aa6d87958bf512f067ec4c7cc8e86ea3a8550cffab8021338b9c5ea4475d5b0b",
+        "bytes": 311918,
+        "sha256": "55c1d29248ece5580babcec7c109ab04ed04ad68e7107e9fcebbb05102697362",
         "stable": true
       },
       "status": 200
     },
     "https://www.theveritassearch.com/rewards": {
-      "dom_sha256": "2801df62b8a8b7f86ae4f6e6b4d45f8fc5826cfdf17c41c551828ecfe2b47800",
+      "dom_sha256": "333c3f3be1531372f17f56813f7dc1712363e0c1d7547f131d507affdb5469e2",
       "final_url": "https://www.theveritassearch.com/rewards",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -305,7 +305,7 @@
       "status": 200
     },
     "https://www.theveritassearch.com/support": {
-      "dom_sha256": "efb97f1cce4dcb1fb58088e7896d39e7993eba358427d91490324eebeba6b7f9",
+      "dom_sha256": "8278b863b6873956847d054ca455e6a22511c470f35b55a2c7b6540c3ce96c17",
       "final_url": "https://www.theveritassearch.com/support",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -328,7 +328,7 @@
     },
     "https://www.theveritassearch.com/support-us": {
       "console_sha256": "333f5a5ce17a589d474d79f4aef04ba13ea9a88d5373afcb619a10ec87593f38",
-      "dom_sha256": "ee5b9fe6809cf5bc3ee76f786b5577e43cf6c874d4812c04a538bbdb2b56d6a7",
+      "dom_sha256": "c237b1834dbddcf353cf34299d572172cc2445d0277ade09c6670f22ec30108f",
       "final_url": "https://www.theveritassearch.com/support-us",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -350,7 +350,7 @@
       "status": 404
     },
     "https://www.theveritassearch.com/tracker": {
-      "dom_sha256": "7e420c1631419a0de4d5ea2c884fc425597217f864898fddafbf3c1574a6da04",
+      "dom_sha256": "87f23dc181717b05670574d9f7d0f7d9d5f627a2d94b3a6f94551be3ea436488",
       "final_url": "https://www.theveritassearch.com/tracker",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -365,8 +365,8 @@
       ],
       "requested_url": "https://www.theveritassearch.com/tracker",
       "screenshot": {
-        "bytes": 381127,
-        "sha256": "fda1c4517f045d231eb6118b44622a93378e4f9f6dd71fbf3210e8d3878b7c0e",
+        "bytes": 390770,
+        "sha256": "5f1a75b0e5077ee22de7d5abda724f053aeed4eea4fd7ae3a884179b03e79dd2",
         "stable": true
       },
       "status": 200
@@ -390,7 +390,7 @@
       "url": "https://theveritassearch.com/"
     },
     "GET https://theveritassearch.com/.well-known/security.txt": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -398,7 +398,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -427,7 +427,7 @@
       "url": "https://theveritassearch.com/archive"
     },
     "GET https://theveritassearch.com/favicon.ico": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -435,7 +435,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -480,7 +480,7 @@
       "url": "https://theveritassearch.com/hints"
     },
     "GET https://theveritassearch.com/manifest.json": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -488,7 +488,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -538,7 +538,7 @@
       "url": "https://theveritassearch.com/robots.txt"
     },
     "GET https://theveritassearch.com/site.webmanifest": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -546,7 +546,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -559,7 +559,7 @@
       "url": "https://theveritassearch.com/site.webmanifest"
     },
     "GET https://theveritassearch.com/sitemap-index.xml": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -567,7 +567,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -601,7 +601,7 @@
       "url": "https://theveritassearch.com/sitemap.xml"
     },
     "GET https://theveritassearch.com/sitemap_index.xml": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -609,7 +609,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -670,7 +670,7 @@
       "url": "https://theveritassearch.com/tracker"
     },
     "GET https://theveritassearch.com/wp-sitemap.xml": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -678,7 +678,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -691,8 +691,8 @@
       "url": "https://theveritassearch.com/wp-sitemap.xml"
     },
     "GET https://www.googletagmanager.com/gtag/js?id=G-N8C2G3ZXWS": {
-      "body_sha256": "46302d4858f5f95d6ab4af3e3c9d841bc0cb033bbeb031163e7e91107ed5b2ed",
-      "bytes": 541936,
+      "body_sha256": "60253476e3fd70c04317395819fd9b274a17b434a13338f850108b2d6b399592",
+      "bytes": 542100,
       "headers": {
         "access-control-allow-credentials": "true",
         "access-control-allow-headers": "Cache-Control",
@@ -700,7 +700,7 @@
         "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
         "cache-control": "private, max-age=900",
         "content-encoding": "zstd",
-        "content-length": "181483",
+        "content-length": "181618",
         "content-type": "application/javascript; charset=UTF-8",
         "cross-origin-resource-policy": "cross-origin",
         "server": "Google Tag Manager",
@@ -713,11 +713,11 @@
       "url": "https://www.googletagmanager.com/gtag/js?id=G-N8C2G3ZXWS"
     },
     "GET https://www.theveritassearch.com/": {
-      "body_sha256": "f35c69beee73dc48e223051b5dc296c6000009bf417e28cdd514f9aab318e038",
+      "body_sha256": "7c79d3e964fd0b61820031d0f328a8b79aa09f7980195f643b3a5615f9de8845",
       "bytes": 2571,
       "headers": {
         "cache-control": "public, max-age=0, must-revalidate",
-        "etag": "\"5cd3624409b2f287c921930924c5cee2\"",
+        "etag": "\"991d0df8d595f188a2ff676d1c370012\"",
         "server": "Vercel"
       },
       "kind": "document",
@@ -726,7 +726,7 @@
       "url": "https://www.theveritassearch.com/"
     },
     "GET https://www.theveritassearch.com/.well-known/security.txt": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -734,7 +734,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -747,11 +747,11 @@
       "url": "https://www.theveritassearch.com/.well-known/security.txt"
     },
     "GET https://www.theveritassearch.com/archive": {
-      "body_sha256": "c1ed9483df147258042aa53f1e5d1f0f7cab66e7162aa9166a8de179142a5054",
+      "body_sha256": "fa19f47044cb7b1bc98c4d5efe2d19702c1a67b6dd4538eaf658f20aa45ba0a9",
       "bytes": 2576,
       "headers": {
         "cache-control": "public, max-age=0, must-revalidate",
-        "etag": "\"78a73001a736f3f675d77f110c581a0b\"",
+        "etag": "\"e6116336a866ff35c9c81040ccc3f2a4\"",
         "server": "Vercel"
       },
       "kind": "document",
@@ -759,16 +759,16 @@
       "status": 200,
       "url": "https://www.theveritassearch.com/archive"
     },
-    "GET https://www.theveritassearch.com/assets/ArchivePage-BEliBW2g.js": {
-      "body_sha256": "378c81f1d0e9f0639073f2bd01765ac42940a264665a2f4a07481d2d5c515cd7",
+    "GET https://www.theveritassearch.com/assets/ArchivePage-auIBX-7d.js": {
+      "body_sha256": "25bd8884cc1603b4948cc173c247fb32c63f61a00a090652baa1d5268060f5b7",
       "bytes": 5978,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"ArchivePage-BEliBW2g.js\"",
+        "content-disposition": "inline; filename=\"ArchivePage-auIBX-7d.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"a0aac40c15e860fa466fa65a2bcc1638\"",
+        "etag": "W/\"03f82eba7336483e14422fc854b2de30\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -776,19 +776,19 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/ArchivePage-BEliBW2g.js"
+      "url": "https://www.theveritassearch.com/assets/ArchivePage-auIBX-7d.js"
     },
-    "GET https://www.theveritassearch.com/assets/ComingSoon-C_uxG8OE.js": {
-      "body_sha256": "f373e4239e0afddddc5377e3ff28e7516fac20db2089fb156d21e4c5d7d9d150",
+    "GET https://www.theveritassearch.com/assets/ComingSoon-DvKFWKfU.js": {
+      "body_sha256": "0933d7a95410e03522369ca6b7d38a32f77ff6dcbe9fb1b52f5d9c664227581f",
       "bytes": 548,
       "headers": {
         "accept-ranges": "bytes",
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"ComingSoon-C_uxG8OE.js\"",
+        "content-disposition": "inline; filename=\"ComingSoon-DvKFWKfU.js\"",
         "content-length": "548",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "\"5cb8a94eb1733382ca726818abb75129\"",
+        "etag": "\"fb49cb17503f2870b0543f8ed9861ef4\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -796,26 +796,7 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/ComingSoon-C_uxG8OE.js"
-    },
-    "GET https://www.theveritassearch.com/assets/DarkVeil-BWkBK1xk.js": {
-      "body_sha256": "56fd4eb9b3a2c29a8bd20cae280b023524d04b591a0c785c231c750e6c680cc6",
-      "bytes": 57732,
-      "headers": {
-        "access-control-allow-origin": "*",
-        "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"DarkVeil-BWkBK1xk.js\"",
-        "content-encoding": "br",
-        "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"fff75d202c86c2b2cb1fac4232e3948b\"",
-        "referrer-policy": "strict-origin-when-cross-origin",
-        "server": "Vercel",
-        "x-content-type-options": "nosniff"
-      },
-      "kind": "script",
-      "method": "GET",
-      "status": 200,
-      "url": "https://www.theveritassearch.com/assets/DarkVeil-BWkBK1xk.js"
+      "url": "https://www.theveritassearch.com/assets/ComingSoon-DvKFWKfU.js"
     },
     "GET https://www.theveritassearch.com/assets/DarkVeil-BWuKyUSo.css": {
       "body_sha256": "840e014e3b1ce8cf39e935512408ff1eab0efd935babc5b4065f3721e01b0607",
@@ -837,16 +818,35 @@
       "status": 200,
       "url": "https://www.theveritassearch.com/assets/DarkVeil-BWuKyUSo.css"
     },
-    "GET https://www.theveritassearch.com/assets/Grid2-DIwCo_zO.js": {
-      "body_sha256": "5dc6caef066f9c44c4073e2bb448d1469ff3fb338f113164c538e29440cb2c69",
+    "GET https://www.theveritassearch.com/assets/DarkVeil-WrnwVX0c.js": {
+      "body_sha256": "ec7c406658a13d32ef98ffb367a8d7c4351d131c1ffc1f316d62273facb20cf6",
+      "bytes": 57732,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000, immutable",
+        "content-disposition": "inline; filename=\"DarkVeil-WrnwVX0c.js\"",
+        "content-encoding": "br",
+        "content-type": "application/javascript; charset=utf-8",
+        "etag": "W/\"e2eae08e785df7ff678d7ad13e1ee17a\"",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "Vercel",
+        "x-content-type-options": "nosniff"
+      },
+      "kind": "script",
+      "method": "GET",
+      "status": 200,
+      "url": "https://www.theveritassearch.com/assets/DarkVeil-WrnwVX0c.js"
+    },
+    "GET https://www.theveritassearch.com/assets/Grid2-DpdexOyi.js": {
+      "body_sha256": "f745c7a7238c8d0da4ba3fe669eec2bf2c8ea6bf6cdaaea5b0a028a79bbf2fc1",
       "bytes": 5147,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"Grid2-DIwCo_zO.js\"",
+        "content-disposition": "inline; filename=\"Grid2-DpdexOyi.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"8186686d73f4e6fe88cd414388cfe585\"",
+        "etag": "W/\"168955cb98a97434985c943ada03fddf\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -854,18 +854,18 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/Grid2-DIwCo_zO.js"
+      "url": "https://www.theveritassearch.com/assets/Grid2-DpdexOyi.js"
     },
-    "GET https://www.theveritassearch.com/assets/GuidelinesPage-0yrYvQKq.js": {
-      "body_sha256": "c023dc18e7726f2acfef19ad41a53c5e1fb955ab0cda5084f04710024b7c131f",
+    "GET https://www.theveritassearch.com/assets/GuidelinesPage-B-o6OLW0.js": {
+      "body_sha256": "163b4bd93ccee437491b2396ad1c5a673faa88485824e41caed14a225338d810",
       "bytes": 3415,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"GuidelinesPage-0yrYvQKq.js\"",
+        "content-disposition": "inline; filename=\"GuidelinesPage-B-o6OLW0.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"08b66afd66debf29bbb3b77a6e289197\"",
+        "etag": "W/\"f2e2e2a9ec692d9026a3c94e26acae77\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -873,18 +873,18 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/GuidelinesPage-0yrYvQKq.js"
+      "url": "https://www.theveritassearch.com/assets/GuidelinesPage-B-o6OLW0.js"
     },
-    "GET https://www.theveritassearch.com/assets/HintsContent-DjTLTkJM.js": {
-      "body_sha256": "2079d451d369192308909935c4a5f37d09ccd142d220e155053f71e36c971d42",
+    "GET https://www.theveritassearch.com/assets/HintsContent-BdvVpfgJ.js": {
+      "body_sha256": "ad8392c0eecb676521de10c86b532e3328a98b526c373a6e9264254ec846c728",
       "bytes": 1781,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"HintsContent-DjTLTkJM.js\"",
+        "content-disposition": "inline; filename=\"HintsContent-BdvVpfgJ.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"bf24acbd8ebebbdc45eae9747745edbf\"",
+        "etag": "W/\"ca0d2ced538db3cdb87eb8ac97f32b85\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -892,19 +892,19 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/HintsContent-DjTLTkJM.js"
+      "url": "https://www.theveritassearch.com/assets/HintsContent-BdvVpfgJ.js"
     },
-    "GET https://www.theveritassearch.com/assets/HintsPage-DaStYIRb.js": {
-      "body_sha256": "8a9bb306757400dae9c8c1a2ce983e3b17c94f13f327506abcbaf671ab2d3daa",
+    "GET https://www.theveritassearch.com/assets/HintsPage-CetNHTjK.js": {
+      "body_sha256": "fb1b924dcf464874f71d008e56d6ea339b67171a547333170b2716c3db3d8616",
       "bytes": 812,
       "headers": {
         "accept-ranges": "bytes",
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"HintsPage-DaStYIRb.js\"",
+        "content-disposition": "inline; filename=\"HintsPage-CetNHTjK.js\"",
         "content-length": "812",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "\"49bd2c230780ff6e485a4f582357be01\"",
+        "etag": "\"927ddc3589b760c052df820eca039214\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -912,18 +912,18 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/HintsPage-DaStYIRb.js"
+      "url": "https://www.theveritassearch.com/assets/HintsPage-CetNHTjK.js"
     },
-    "GET https://www.theveritassearch.com/assets/ModelViewer-DujCkbnh.js": {
-      "body_sha256": "2e9aa64722f79d3bedb5308cffb38be0b7219894a8755797794afc5446539ac0",
+    "GET https://www.theveritassearch.com/assets/ModelViewer-sh6vuRGW.js": {
+      "body_sha256": "a80d38331f8f89299a3dcd8ae24ff53c9c7f2f44f5ebea7634359228f36d7d3e",
       "bytes": 1089111,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"ModelViewer-DujCkbnh.js\"",
+        "content-disposition": "inline; filename=\"ModelViewer-sh6vuRGW.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"d23430965cdffc69d3460932dab21221\"",
+        "etag": "W/\"b1734657aa85e9d8b5b4c874ca0b821d\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -931,19 +931,19 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/ModelViewer-DujCkbnh.js"
+      "url": "https://www.theveritassearch.com/assets/ModelViewer-sh6vuRGW.js"
     },
-    "GET https://www.theveritassearch.com/assets/NotFoundPage-DIcTRgdk.js": {
-      "body_sha256": "0c7270c121c367271ac16030302ab25c5dadbc3e10e7f7f414a658623026472a",
+    "GET https://www.theveritassearch.com/assets/NotFoundPage-BGewXEXF.js": {
+      "body_sha256": "1621ef24ea92e9a8eebceb7b577b659775793032cb22a7255fc2225aad12af36",
       "bytes": 420,
       "headers": {
         "accept-ranges": "bytes",
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"NotFoundPage-DIcTRgdk.js\"",
+        "content-disposition": "inline; filename=\"NotFoundPage-BGewXEXF.js\"",
         "content-length": "420",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "\"bc9af3d17844327b3bc9b5c856db0898\"",
+        "etag": "\"85ce3cfe28798a19569452400e706b13\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -951,18 +951,18 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/NotFoundPage-DIcTRgdk.js"
+      "url": "https://www.theveritassearch.com/assets/NotFoundPage-BGewXEXF.js"
     },
-    "GET https://www.theveritassearch.com/assets/RewardsContent-TXNsqD0C.js": {
-      "body_sha256": "92890373e1be3720eb52d5d2f2526a57be9e857f623020c6ec1c0fac74219ba8",
+    "GET https://www.theveritassearch.com/assets/RewardsContent-CmjhXU-u.js": {
+      "body_sha256": "1c67c61d0fd98a8a5008dd1f632451b74f053ff1e51c778e4673d35858fbbc62",
       "bytes": 3059,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"RewardsContent-TXNsqD0C.js\"",
+        "content-disposition": "inline; filename=\"RewardsContent-CmjhXU-u.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"2095b8ee6ae5cd2032623c96ea0f3588\"",
+        "etag": "W/\"abb58bed6b220d4a0283ad4a22447cd3\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -970,19 +970,19 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/RewardsContent-TXNsqD0C.js"
+      "url": "https://www.theveritassearch.com/assets/RewardsContent-CmjhXU-u.js"
     },
-    "GET https://www.theveritassearch.com/assets/RewardsPage-BUB4cr6H.js": {
-      "body_sha256": "af8ef7638469e1d9b98a886b1cdf41c96e8c48fd5af18ec5e217e4000d061d00",
+    "GET https://www.theveritassearch.com/assets/RewardsPage-DvtJuLOI.js": {
+      "body_sha256": "29ace694b6d08fed19e19bd26b0f364260b808a63b0bab1711c5a43ee270a52c",
       "bytes": 600,
       "headers": {
         "accept-ranges": "bytes",
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"RewardsPage-BUB4cr6H.js\"",
+        "content-disposition": "inline; filename=\"RewardsPage-DvtJuLOI.js\"",
         "content-length": "600",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "\"61828e04393253c6e19f84322bc0b106\"",
+        "etag": "\"81a0557f2e9b2b143e0d2dc6c88b75f8\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -990,19 +990,19 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/RewardsPage-BUB4cr6H.js"
+      "url": "https://www.theveritassearch.com/assets/RewardsPage-DvtJuLOI.js"
     },
-    "GET https://www.theveritassearch.com/assets/RichText-DypfPJK-.js": {
-      "body_sha256": "916193ab65ae4f2a5b01c1ae196b11ff93b77ad48645d3ae7946dc0cfde31a20",
+    "GET https://www.theveritassearch.com/assets/RichText-DSic0dtb.js": {
+      "body_sha256": "0e19242842e589aff02864fd038c7025d0b91548a6bfbacd0336a01327fb2a8d",
       "bytes": 444,
       "headers": {
         "accept-ranges": "bytes",
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"RichText-DypfPJK-.js\"",
+        "content-disposition": "inline; filename=\"RichText-DSic0dtb.js\"",
         "content-length": "444",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "\"4fe7f4d5e40eb96bb878450d1940c308\"",
+        "etag": "\"34850766188f1e686099821de6a20dcd\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -1010,18 +1010,18 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/RichText-DypfPJK-.js"
+      "url": "https://www.theveritassearch.com/assets/RichText-DSic0dtb.js"
     },
-    "GET https://www.theveritassearch.com/assets/SupportPage-BSJuDp56.js": {
-      "body_sha256": "7b9dcbdae394654a44aa4f6ed276f24c363df7cb27c5d4b48c22a426727b589c",
+    "GET https://www.theveritassearch.com/assets/SupportPage-BgWIES_f.js": {
+      "body_sha256": "222e627f6c34f27c502accd0747916cf7c92decef9bb009cf5ba652991172f3d",
       "bytes": 2276,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"SupportPage-BSJuDp56.js\"",
+        "content-disposition": "inline; filename=\"SupportPage-BgWIES_f.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"486c96825a51e3f1d98f8f438305a2f9\"",
+        "etag": "W/\"7e91077ca3b1b3315532cdb9fe98a71b\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -1029,18 +1029,18 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/SupportPage-BSJuDp56.js"
+      "url": "https://www.theveritassearch.com/assets/SupportPage-BgWIES_f.js"
     },
-    "GET https://www.theveritassearch.com/assets/TrackerContent-BfgdO6Rl.js": {
-      "body_sha256": "fe397aecbe5cbc4700543ce1ac6865e2efe34ed1b8c37258559b9036162c5e3d",
+    "GET https://www.theveritassearch.com/assets/TrackerContent-CuMLWds8.js": {
+      "body_sha256": "3fa6a2ca2e26143f2d0b40ff467dacc78a207d695fb95601bc7de2cab48fa118",
       "bytes": 1931,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"TrackerContent-BfgdO6Rl.js\"",
+        "content-disposition": "inline; filename=\"TrackerContent-CuMLWds8.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"3c7d32ac78509daec46dd7e53b809629\"",
+        "etag": "W/\"b1be793f6999b7d2ddb11226c18670fc\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -1048,18 +1048,18 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/TrackerContent-BfgdO6Rl.js"
+      "url": "https://www.theveritassearch.com/assets/TrackerContent-CuMLWds8.js"
     },
-    "GET https://www.theveritassearch.com/assets/TrackerPage-B9-6bdhK.js": {
-      "body_sha256": "b046388e2628f6a894f07958303ed433dfdf40750e876e856a0ea1d6b5c3051c",
+    "GET https://www.theveritassearch.com/assets/TrackerPage-N82JWkxJ.js": {
+      "body_sha256": "3daed831bd2515151e60daaaa6296245d929a8ff18262e7dd7eb452a1125372c",
       "bytes": 1007,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"TrackerPage-B9-6bdhK.js\"",
+        "content-disposition": "inline; filename=\"TrackerPage-N82JWkxJ.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"d7a1f1849decbaf40efcad6447342af2\"",
+        "etag": "W/\"905d20099b4949993a9238aca64c82d1\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -1067,7 +1067,7 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/TrackerPage-B9-6bdhK.js"
+      "url": "https://www.theveritassearch.com/assets/TrackerPage-N82JWkxJ.js"
     },
     "GET https://www.theveritassearch.com/assets/index-DC-UsBM6.css": {
       "body_sha256": "eb96e8e1e88131924128ecd049c95163c3ff3bbc5b68f4a2c175057d719afb97",
@@ -1088,16 +1088,16 @@
       "status": 200,
       "url": "https://www.theveritassearch.com/assets/index-DC-UsBM6.css"
     },
-    "GET https://www.theveritassearch.com/assets/index-Difk1qsV.js": {
-      "body_sha256": "1b59b6e6eebb959b7db1ded9bcaacbb287b6244cfc01856bbdf395dd78ab19f3",
-      "bytes": 520295,
+    "GET https://www.theveritassearch.com/assets/index-Dhlvkmed.js": {
+      "body_sha256": "5e2c40bdc6a25430eef892f59dda4a1edcb1a64029806281d21ef8177dd17428",
+      "bytes": 520372,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"index-Difk1qsV.js\"",
+        "content-disposition": "inline; filename=\"index-Dhlvkmed.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"0022679155d3c05dc712d99f4b07384e\"",
+        "etag": "W/\"e109f554a5fb15c36145934b389cacaf\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -1105,18 +1105,18 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/index-Difk1qsV.js"
+      "url": "https://www.theveritassearch.com/assets/index-Dhlvkmed.js"
     },
-    "GET https://www.theveritassearch.com/assets/useTilt-C2P9xVQF.js": {
-      "body_sha256": "6427a19d6dfec85d3b8baef44b33b8d828e96667358875cd26428a2962921cce",
+    "GET https://www.theveritassearch.com/assets/useTilt-B0bt6NSt.js": {
+      "body_sha256": "fc4bbe3299ef4cecab5cc2c9cfb348b409a4966fe737572136def60d92720d5a",
       "bytes": 1186,
       "headers": {
         "access-control-allow-origin": "*",
         "cache-control": "public, max-age=31536000, immutable",
-        "content-disposition": "inline; filename=\"useTilt-C2P9xVQF.js\"",
+        "content-disposition": "inline; filename=\"useTilt-B0bt6NSt.js\"",
         "content-encoding": "br",
         "content-type": "application/javascript; charset=utf-8",
-        "etag": "W/\"7edfc90aad76097f5d48470122654bc8\"",
+        "etag": "W/\"3552b41957deb19bea700aed5b75c6cc\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "x-content-type-options": "nosniff"
@@ -1124,7 +1124,7 @@
       "kind": "script",
       "method": "GET",
       "status": 200,
-      "url": "https://www.theveritassearch.com/assets/useTilt-C2P9xVQF.js"
+      "url": "https://www.theveritassearch.com/assets/useTilt-B0bt6NSt.js"
     },
     "GET https://www.theveritassearch.com/blue+shield+emblem+3d+model-opt.glb": {
       "body_sha256": "79216ff04838cadcd3e8cfc6acc73593ab0ddd79026f6cfde706984f2f9cc59f",
@@ -1166,7 +1166,7 @@
       "url": "https://www.theveritassearch.com/capsule.svg"
     },
     "GET https://www.theveritassearch.com/favicon.ico": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -1174,7 +1174,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -1187,11 +1187,11 @@
       "url": "https://www.theveritassearch.com/favicon.ico"
     },
     "GET https://www.theveritassearch.com/guidelines": {
-      "body_sha256": "fb84a851215c7301990044e5a678f91a761a1973f26c49a3c38f458d2a59545b",
+      "body_sha256": "e81844575d236a5c0b5d9178c67a610f2c6cfbb6b8c672ee13f1b9d2ea150d7c",
       "bytes": 2552,
       "headers": {
         "cache-control": "public, max-age=0, must-revalidate",
-        "etag": "\"db7ccb53edf722f702c0cb81a34ebddc\"",
+        "etag": "\"c0e28da95a9dc96aa5610694cc6a5b33\"",
         "server": "Vercel"
       },
       "kind": "document",
@@ -1238,11 +1238,11 @@
       "url": "https://www.theveritassearch.com/hdr/lebombo_512.hdr"
     },
     "GET https://www.theveritassearch.com/hints": {
-      "body_sha256": "40af8a95109cc5a0335e94eeed5d22c1813432ef30d9ef20b83e558944c41150",
+      "body_sha256": "36776944ed609134b76b52339192cb2fd18541c4cbed6647bd3505a5ab7516ef",
       "bytes": 2419,
       "headers": {
         "cache-control": "public, max-age=0, must-revalidate",
-        "etag": "\"9dcd4ed745040399bfa6b34c3eb31e41\"",
+        "etag": "\"6d6b39a584508eb6c63bd43f7437b471\"",
         "server": "Vercel"
       },
       "kind": "document",
@@ -1251,7 +1251,7 @@
       "url": "https://www.theveritassearch.com/hints"
     },
     "GET https://www.theveritassearch.com/manifest.json": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -1259,7 +1259,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -1631,11 +1631,11 @@
       "url": "https://www.theveritassearch.com/metal+capsule+3d+model-opt.glb"
     },
     "GET https://www.theveritassearch.com/rewards": {
-      "body_sha256": "f51a3df234199762ba914fdbf627fc31fdd10f80c1d97e71670e2baec296b700",
+      "body_sha256": "c0b8d237343c0bcabbdded7092cf02bda2585a2d7eab0a1617896ab71c4fa246",
       "bytes": 2504,
       "headers": {
         "cache-control": "public, max-age=0, must-revalidate",
-        "etag": "\"59a1b460b81323c3d21c81eea069a197\"",
+        "etag": "\"284b05148896e61aef7b2e82db0b01bc\"",
         "server": "Vercel"
       },
       "kind": "document",
@@ -1665,7 +1665,7 @@
       "url": "https://www.theveritassearch.com/robots.txt"
     },
     "GET https://www.theveritassearch.com/site.webmanifest": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -1673,7 +1673,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -1686,7 +1686,7 @@
       "url": "https://www.theveritassearch.com/site.webmanifest"
     },
     "GET https://www.theveritassearch.com/sitemap-index.xml": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -1694,7 +1694,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -1728,7 +1728,7 @@
       "url": "https://www.theveritassearch.com/sitemap.xml"
     },
     "GET https://www.theveritassearch.com/sitemap_index.xml": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -1736,7 +1736,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -1749,11 +1749,11 @@
       "url": "https://www.theveritassearch.com/sitemap_index.xml"
     },
     "GET https://www.theveritassearch.com/support": {
-      "body_sha256": "6660240e1022829686467fe40bb1f46db72328827009858117fbd454a9c46137",
+      "body_sha256": "5f72f20548d8b26d5122bcaaa54335f11159708ed251ddf2aed64d2ea5ef1a83",
       "bytes": 2525,
       "headers": {
         "cache-control": "public, max-age=0, must-revalidate",
-        "etag": "\"ae39cf74776d67f6bdf148ce11cd8a3d\"",
+        "etag": "\"725ea932ae79d1cd106a0218e5ae9701\"",
         "server": "Vercel"
       },
       "kind": "document",
@@ -1762,7 +1762,7 @@
       "url": "https://www.theveritassearch.com/support"
     },
     "GET https://www.theveritassearch.com/support-us": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -1770,7 +1770,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -1782,11 +1782,11 @@
       "url": "https://www.theveritassearch.com/support-us"
     },
     "GET https://www.theveritassearch.com/tracker": {
-      "body_sha256": "6b0fc722479e19973ea454ab55a800e458e4dbdce9612cc5137a90c4a05acbfa",
+      "body_sha256": "4b57c388e61e429d3197427ed4d7a479345198d8f29d3d1fe6bc9fbe61a8222d",
       "bytes": 2450,
       "headers": {
         "cache-control": "public, max-age=0, must-revalidate",
-        "etag": "\"4d15f33a049f646e90780a040d8db50c\"",
+        "etag": "\"7067beb79cd73a1daa6bc5abbecb1c21\"",
         "server": "Vercel"
       },
       "kind": "document",
@@ -1795,7 +1795,7 @@
       "url": "https://www.theveritassearch.com/tracker"
     },
     "GET https://www.theveritassearch.com/wp-sitemap.xml": {
-      "body_sha256": "83a71ee46751c329759f0cad54c407bad07b23ecebf59dbe5706c71bc9a89f2b",
+      "body_sha256": "a8c47e032662cf878facab5dfdf1776fc276aa3545fc5d17f4f0d5cd7a4419e2",
       "bytes": 2507,
       "headers": {
         "access-control-allow-origin": "*",
@@ -1803,7 +1803,7 @@
         "content-disposition": "inline; filename=\"404\"",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "etag": "W/\"e0a012dd39a863039d7d0dfd486748c5\"",
+        "etag": "W/\"e1f6b4f84a0e099f114103387b793675\"",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
@@ -1815,7 +1815,7 @@
       "status": 404,
       "url": "https://www.theveritassearch.com/wp-sitemap.xml"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437365509&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123329125~123785234~124170883&sid=1794437365&sct=1&seg=0&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=435": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454098167&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119863601~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794454098&sct=1&seg=0&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=392": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1834,9 +1834,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437365509&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123329125~123785234~124170883&sid=1794437365&sct=1&seg=0&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=435"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454098167&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119863601~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794454098&sct=1&seg=0&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=392"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437371765&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329125~124025273~124134297~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Frewards&dt=Rewards%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=268": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454103797&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119863601~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329123~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Frewards&dt=Rewards%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=270": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1855,9 +1855,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437371765&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329125~124025273~124134297~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Frewards&dt=Rewards%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=268"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454103797&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119863601~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329123~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Frewards&dt=Rewards%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=270"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437373559&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119863601~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329125~124025272~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=252": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454105682&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119860442~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123329125~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=224": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1876,9 +1876,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437373559&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119863601~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329125~124025272~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=252"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454105682&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119860442~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123329125~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=224"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437377070&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412526~120420414~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=281": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454109779&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329123~123785234~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=244": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1897,9 +1897,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437377070&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412526~120420414~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=281"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454109779&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329123~123785234~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=244"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437378440&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119860442~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329123~123785232~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=251": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454111170&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123329125~123785233~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=269": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1918,9 +1918,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437378440&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119860442~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329123~123785232~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=251"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454111170&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123329125~123785233~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=269"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437379780&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119863601~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~123329125~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=230": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454112674&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123329125~123785233~123988485~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=411": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1939,9 +1939,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437379780&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119863601~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~123329125~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=230"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454112674&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123329125~123785233~123988485~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=411"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437381188&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119860442~120213116~120385423~120412528~120420416~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport&dt=Support%20Us%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=259": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454114109&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~123329123~123785234~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport&dt=Support%20Us%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=306": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1960,9 +1960,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437381188&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119860442~120213116~120385423~120412528~120420416~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport&dt=Support%20Us%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=259"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454114109&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~123329123~123785234~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport&dt=Support%20Us%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=306"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437382577&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120412526~120420414~120469145~120469153~121246026~121246034~123329125~123785233~123988486~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=199": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454115457&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329125~123785232~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=214": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1981,9 +1981,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437382577&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120412526~120420414~120469145~120469153~121246026~121246034~123329125~123785233~123988486~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=199"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454115457&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329125~123785232~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=214"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437383890&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120412526~120420416~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_ee=1&tfd=164": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454116714&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119793972~119860442~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_ee=1&tfd=151": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2002,9 +2002,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437383890&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120412526~120420416~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_ee=1&tfd=164"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454116714&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119793972~119860442~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_ee=1&tfd=151"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437390980&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=162": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454122128&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119860443~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329125~123785234~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Frewards&dt=Rewards%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=147": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2023,9 +2023,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437390980&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=162"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454122128&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119860443~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329125~123785234~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Frewards&dt=Rewards%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=147"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437394320&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=216": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454123862&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123329125~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=141": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2044,9 +2044,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437394320&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=216"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454123862&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123329125~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=141"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437395639&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329123~123988485~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=222": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454126922&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121246026~121246034~123329125~123785232~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=188": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2065,9 +2065,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437395639&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121246026~121246034~123329123~123988485~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=222"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454126922&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121246026~121246034~123329125~123785232~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=188"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437397119&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329123~123785233~124025272~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=212": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454128216&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118012007~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=162": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2086,9 +2086,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437397119&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329123~123785233~124025272~124170883&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=212"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454128216&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118012007~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=162"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437398429&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119860442~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123329125~123630401~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport&dt=Support%20Us%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=156": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454129534&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119793973~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=188": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2107,9 +2107,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437398429&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119860442~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123329125~123630401~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport&dt=Support%20Us%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=156"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454129534&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119793973~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=188"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437399811&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119863601~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=192": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454132119&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=150": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2128,7 +2128,7 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6ba1v9198626248za208zd9198626248xf1&_p=1794437399811&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1430398058.1794437366&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119863601~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123329125~124170881&sid=1794437365&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=192"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bb0h2v9198626248za208zd9198626248xf1&_p=1794454132119&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1857555554.1794454098&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x1000&uaa=x86&uab=64&uafvl=Chromium%3B158.0.8127.18%7CNot.A%252FBrand%3B24.0.0.0%7CHeadlessChrome%3B158.0.8127.18&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121246026~121246034~123329123~124170883&sid=1794454098&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=150"
     }
   },
   "schema": 6
