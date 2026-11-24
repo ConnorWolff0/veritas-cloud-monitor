@@ -8,8 +8,8 @@
     },
     "www.theveritassearch.com": {
       "dns": [
-        "66.33.60.35",
-        "76.76.21.123"
+        "66.33.60.67",
+        "76.76.21.98"
       ],
       "tls_cert_sha256": "f0852e059afa6ab2e3131dfe315c2fc8ca2be2a8712932b78ae0c870304954b5"
     }
@@ -62,7 +62,7 @@
     },
     "https://theveritassearch.com/guidelines": {
       "console_sha256": "6eb78b891fa59318e70ba61b0a955bcd561d222271486945c5f16f43d4f28fda",
-      "dom_sha256": "06bd8ca88eb7df2c4685a4984236babe533dfc50e233604d652b420ffeaabf1c",
+      "dom_sha256": "3b5411ea3b7aa9557f41ba2c42f91a9d9c14f2e93a91890892128701cb4d1608",
       "final_url": "https://www.theveritassearch.com/guidelines",
       "internal_links": [
         "https://www.theveritassearch.com/",
@@ -365,8 +365,8 @@
       ],
       "requested_url": "https://www.theveritassearch.com/tracker",
       "screenshot": {
-        "bytes": 449186,
-        "sha256": "7ed53b93c51843bb166b4afdfaf60d351376ff58fe72b5c7586dba0b789400dc",
+        "bytes": 429248,
+        "sha256": "812e9c1c24ab9162e952f3e3343f179938efbf2fce1fc778c7dfb50aec0f0ce2",
         "stable": true
       },
       "status": 200
@@ -691,7 +691,7 @@
       "url": "https://theveritassearch.com/wp-sitemap.xml"
     },
     "GET https://www.googletagmanager.com/gtag/js?id=G-N8C2G3ZXWS": {
-      "body_sha256": "4cd00f7fb8a7a7a87c6b8baccdfba528347cdbc3ae22dee26e214d782a1dfdfb",
+      "body_sha256": "dd17b697f093ef3b6fba42d16d1b0f800ebd08b689f63986537d391e2b490eb3",
       "bytes": 545290,
       "headers": {
         "access-control-allow-credentials": "true",
@@ -711,25 +711,6 @@
       "method": "GET",
       "status": 200,
       "url": "https://www.googletagmanager.com/gtag/js?id=G-N8C2G3ZXWS"
-    },
-    "GET https://www.googletagmanager.com/td?id=G-N8C2G3ZXWS&v=3&t=t&pid=718268319&gtm=45je6bh1v9198626248za200zd9198626248xf1&seq=1&exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034&dl=www.theveritassearch.com%2Frewards&tdp=G-N8C2G3ZXWS;198626248;0;0;0&frm=0&rtg=198626248&slo=0&hlo=0&lst=3&bt=0&ct=3&z=0": {
-      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "headers": {
-        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
-        "cache-control": "no-cache, no-store, must-revalidate",
-        "content-length": "0",
-        "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgtc:46:0",
-        "content-type": "text/plain",
-        "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgtc:46:0",
-        "cross-origin-resource-policy": "cross-origin",
-        "pragma": "no-cache",
-        "server": "Golfe2"
-      },
-      "kind": "image",
-      "method": "GET",
-      "status": 204,
-      "url": "https://www.googletagmanager.com/td?id=G-N8C2G3ZXWS&v=3&t=t&pid=718268319&gtm=45je6bh1v9198626248za200zd9198626248xf1&seq=1&exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034&dl=www.theveritassearch.com%2Frewards&tdp=G-N8C2G3ZXWS;198626248;0;0;0&frm=0&rtg=198626248&slo=0&hlo=0&lst=3&bt=0&ct=3&z=0"
     },
     "GET https://www.theveritassearch.com/": {
       "body_sha256": "c68d9f743c95c9d3fc5164a66079e4a570345bc8dae700830cccccbd84e82be2",
@@ -1874,7 +1855,7 @@
       "status": 404,
       "url": "https://www.theveritassearch.com/wp-sitemap.xml"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za200zd9198626248xf1&_p=1795441474245&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=scroll&epn.percent_scrolled=90&_et=4&tfd=5434": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za200zd9198626248xf1&_p=1795482987528&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=scroll&epn.percent_scrolled=90&_et=59&tfd=5535": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1893,9 +1874,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za200zd9198626248xf1&_p=1795441474245&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=scroll&epn.percent_scrolled=90&_et=4&tfd=5434"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za200zd9198626248xf1&_p=1795482987528&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=scroll&epn.percent_scrolled=90&_et=59&tfd=5535"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441462828&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=0&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=510": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482964851&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~119793973~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=0&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=557": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1914,9 +1895,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441462828&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=0&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=510"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482964851&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~119793973~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=0&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=557"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441471814&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Frewards&dt=Rewards%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=389": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482980103&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034~123785233&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=306": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1935,9 +1916,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441471814&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Frewards&dt=Rewards%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=389"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482980103&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034~123785233&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=306"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441474245&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=331": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482981738&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034~123785233&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=306": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1956,9 +1937,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441474245&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fguidelines&dt=Guidelines%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=331"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482981738&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034~123785233&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=306"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441480181&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118012007~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=298": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482983197&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=290": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1977,9 +1958,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441480181&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118012007~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=298"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482983197&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=290"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441481725&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=272": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482986171&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~119863601~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=343": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -1998,9 +1979,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441481725&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=272"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482986171&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~119863601~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=343"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441483275&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785232&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=255": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482987528&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_ee=1&tfd=199": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2019,9 +2000,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441483275&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785232&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=255"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795482987528&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_ee=1&tfd=199"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441486378&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=244": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795483002665&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118012009~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&_et=1&tfd=319": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2040,9 +2021,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441486378&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=244"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795483002665&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118012009~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&_et=1&tfd=319"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441487841&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~119860442~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_ee=1&tfd=5397": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795483004166&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785233&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=249": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2061,9 +2042,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441487841&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~119860442~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2F&dt=The%20Veritas%20Search&en=page_view&_ee=1&tfd=5397"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795483004166&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785233&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=249"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441504997&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=324": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795483005572&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123785232&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=188": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2082,9 +2063,9 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441504997&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Ftracker&dt=Tracker%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=324"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795483005572&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123785232&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=188"
     },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441506479&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=269": {
+    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795483008517&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034~123785234&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=262": {
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "headers": {
@@ -2103,49 +2084,7 @@
       "kind": "fetch",
       "method": "POST",
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441506479&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fhints&dt=Hints%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=269"
-    },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441507932&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=317": {
-      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "headers": {
-        "access-control-allow-credentials": "true",
-        "access-control-allow-origin": "https://www.theveritassearch.com",
-        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
-        "cache-control": "no-cache, no-store, must-revalidate",
-        "content-length": "0",
-        "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:143:0",
-        "content-type": "text/plain",
-        "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:143:0",
-        "cross-origin-resource-policy": "cross-origin",
-        "pragma": "no-cache",
-        "server": "Golfe2"
-      },
-      "kind": "fetch",
-      "method": "POST",
-      "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441507932&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Farchive&dt=The%20Archives%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=317"
-    },
-    "POST https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441510869&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=263": {
-      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "headers": {
-        "access-control-allow-credentials": "true",
-        "access-control-allow-origin": "https://www.theveritassearch.com",
-        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
-        "cache-control": "no-cache, no-store, must-revalidate",
-        "content-length": "0",
-        "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:143:0",
-        "content-type": "text/plain",
-        "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:143:0",
-        "cross-origin-resource-policy": "cross-origin",
-        "pragma": "no-cache",
-        "server": "Golfe2"
-      },
-      "kind": "fetch",
-      "method": "POST",
-      "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795441510869&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=161478585.1795441463&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795441463&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=263"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N8C2G3ZXWS&gtm=45je6bh1v9198626248za208zd9198626248xf1&_p=1795483008517&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=954670277.1795482965&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B159.0.8154.6%7CNot%252FA)Brand%3B8.0.0.0%7CChromium%3B159.0.8154.6&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034~123785234&sid=1795482965&sct=1&seg=1&dl=https%3A%2F%2Fwww.theveritassearch.com%2Fsupport-us&dt=Page%20Not%20Found%20%7C%20The%20Veritas%20Search&en=page_view&_ee=1&tfd=262"
     }
   },
   "schema": 6
